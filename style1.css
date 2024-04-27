@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f7; /* Mint green background color */
+}
+
+h2 {
+    text-align: center;
+    color: #333; /* Dark text color */
+}
+
+.form-container {
+    width: 300px;
+    margin: 50px auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #fff; /* White background color for the form container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+form {
+    text-align: center; /* Center-align form elements */
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    width: calc(100% - 20px); /* Set width for form elements with padding */
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded corners for input fields */
+}
+
+button {
+    background-color: #4caf50; /* Green button background color */
+    color: #fff; /* White text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}

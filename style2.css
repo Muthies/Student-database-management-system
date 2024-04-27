@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f7; /* Mint green background color */
+}
+
+nav {
+    background-color: #007bff; /* Blue navigation background color */
+    padding: 10px 0; /* Add padding to top and bottom */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-align navigation links */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add spacing between navigation links */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation link */
+}
+
+nav ul li a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    color: #007bff; /* Blue heading color */
+    border-bottom: 2px solid #007bff; /* Blue bottom border */
+    padding-bottom: 10px; /* Add spacing between heading and content */
+}
+
+.student-info {
+    background-color: #fff; /* White background color for student info */
+    padding: 10px;
+    margin-bottom: 20px; /* Add spacing between student info blocks */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.student-info p {
+    margin: 5px 0; /* Add spacing between paragraphs */
+}
+
+.student-info:last-child {
+    margin-bottom: 0; /* Remove margin from the last student info block */
+}
